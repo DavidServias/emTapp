@@ -9,3 +9,4 @@ click on "Hide/Show Answer." You can keep the answer window open or closed. Clic
 interval. You can click on buttons while intervals are being played, and mostly nothing bad happens, but once in 
 a while there are glitches with the sound.
 
+http://musictheoryforyou.com/intervals/
