@@ -1,4 +1,4 @@
-﻿body {
+body {
     /* Uncomment this to enable scrolling and zooming
   touch-action: manipulation;
   */
@@ -11,7 +11,6 @@ body {
 }
 
 #outer {
-    width: 100%;
     background-color: skyBlue;
     color: darkGreen;
     width: 360px;
@@ -75,21 +74,15 @@ body {
     text-align: left;
 }
 
-    #answer-container h1, h2 {
-        text-indent: 20px;
-        margin: 5px 0 0 0;
-        padding: 0px;
-        color: darkgray
-    }
+#answer-container h1, h2 {
+    text-indent: 20px;
+    margin: 5px 0 0 0;
+    padding: 0px;
+    color: darkgray
+}
 
 #name, #lower, #upper {
     color: black;
-}
-
-#fake-console {
-    width: 200px;
-    height: 200px;
-    color: green;
 }
 
 #continue {
@@ -98,17 +91,26 @@ body {
     text-align: right;
 }
 
-    #continue button {
-        background-color: #008000;
-        border: none;
-        color: white;
-        border: none;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-    }
+#continue button {
+    background-color: #008000;
+    border: none;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
 
-    #continue .button:hover {
-        background-color: #3e8e41;
+#continue .button:hover {
+    background-color: #3e8e41;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #outer {
+        width: 100%;
     }
+}
+
+
