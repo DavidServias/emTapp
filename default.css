@@ -1,0 +1,126 @@
+body {
+    background-color: #008000;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23808080' fill-opacity='0.7'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: green;
+}
+
+#outer {
+    background-color: skyBlue;
+    color: darkGreen;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 5%;
+    padding: 0px;
+}
+
+#title {
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#display, #hearAgain {
+    width: 60%;
+    border: green solid 2px;
+    margin: auto;
+}
+
+.btn-group .button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    width: 55%;
+    height: 80px;
+    display: block;
+    border-radius: 5%;
+    margin: 0 auto 10px auto;
+}
+
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}
+
+#show_answer {
+    background-color: darkBlue;
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+    padding: 0px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 5%;
+}
+
+#answer-container {
+    position: relative;
+    background-color: gray;
+    color: black;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    border-radius: 5%;
+}
+
+#answer-container h1, h2 {
+    text-indent: 20px;
+    margin: 5px 0 10px 0;
+    padding: 0px;
+    color: darkgray
+}
+
+#name, #lower, #upper {
+    color: black;
+}
+
+#continue {
+    position: relative;
+    display: block;
+    text-align: right;
+}
+
+#continue button {
+    background-color: #008000;
+    border: none;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#continue .button:hover {
+    background-color: #3e8e41;
+}
+
+
+
+@media only screen and (max-width : 900px) {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #outer {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        padding: 0px;
+        box-shadow: 0 0 0 0;
+        text-align: center;
+    }
+}
